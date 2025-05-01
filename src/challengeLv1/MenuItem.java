@@ -1,4 +1,4 @@
-package lv4;
+package challengeLv1;
 
 //class 정의하기
 public class MenuItem {

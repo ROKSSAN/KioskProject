@@ -45,7 +45,7 @@ kioskProject/
 │   │   ├── Lv3Main.java
 │   │   ├── Kiosk.java        # Lv3: 주문 기능 구현
 │   │   └── MenuItem.java
-│   └── lv4/
+│   └── lv45/
 │       ├── Lv4Main.java
 │       ├── Kiosk.java
 │       ├── Menu.java         # Lv4: 메뉴 클래스 분리 및 구조 개선

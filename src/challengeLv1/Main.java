@@ -1,10 +1,9 @@
-package lv4;
+package challengeLv1;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Lv4Main {
+public class Main {
     public static void main(String[] args) {
         // MenuItem 생성
         List<MenuItem> burgers = Arrays.asList(

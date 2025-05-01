@@ -1,4 +1,5 @@
-package lv4;
+package challengeLv1;
+
 import java.util.List;
 
 public class Menu {

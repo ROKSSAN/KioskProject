@@ -1,4 +1,4 @@
-package lv4;
+package challengeLv1;
 
 import java.util.List;
 import java.util.Scanner;
@@ -22,24 +22,31 @@ public class Kiosk {
                 System.out.println((i + 1) + ". " + menus.get(i).getCategoryName());
             }
             System.out.println("0. 종료");
+            System.out.println("9 눌러 장바구니 보기");
 
             // 2. 사용자 입력 받기
             System.out.print("번호를 입력하세요: ");
             int menuChoice = scanner.nextInt();
 
-            // 3. 종료 처리
+            // 종료 처리
             if (menuChoice == 0) {
                 System.out.println("프로그램을 종료합니다.");
                 break;
             }
 
-            // 4. 잘못된 입력 처리
+            //장바구니 목록 표시
+            if (menuChoice == 9) {
+                Cart.showCart(); // 장바구니 보기
+                continue;
+            }
+
+            // 잘못된 입력 처리
             if (menuChoice < 1 || menuChoice > menus.size()) {
                 System.out.println("잘못된 입력입니다. 다시 시도해주세요.");
                 continue;
             }
 
-            // 5. 메뉴 선택 → 인덱스 -1 로 접근
+            // 메뉴 선택 → 인덱스 -1 로 접근
             Menu selectedMenu = menus.get(menuChoice - 1);
 
             // 6. 선택한 카테고리의 메뉴 보여주기
