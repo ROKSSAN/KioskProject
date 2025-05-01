@@ -32,7 +32,28 @@
 
 ## 📁 폴더 구조
 
-src/ ├── lv1/ │ └── Lv1Main.java ├── lv2/ │ ├── Lv2Main.java │ └── MenuItem.java ├── lv3/ │ ├── Lv3Main.java │ ├── Kiosk.java │ └── MenuItem.java ├── lv4/ │ ├── Lv4Main.java │ ├── Kiosk.java │ ├── Menu.java │ └── MenuItem.java
+kioskProject/
+├── .idea/                    # IntelliJ 프로젝트 설정
+├── out/                      # 빌드 출력 디렉토리
+├── src/
+│   ├── lv1/
+│   │   └── Lv1Main.java      # Lv1: 기본 출력 기능
+│   ├── lv2/
+│   │   ├── Lv2Main.java      # Lv2: MenuItem 클래스 도입
+│   │   └── MenuItem.java
+│   ├── lv3/
+│   │   ├── Lv3Main.java
+│   │   ├── Kiosk.java        # Lv3: 주문 기능 구현
+│   │   └── MenuItem.java
+│   └── lv4/
+│       ├── Lv4Main.java
+│       ├── Kiosk.java
+│       ├── Menu.java         # Lv4: 메뉴 클래스 분리 및 구조 개선
+│       └── MenuItem.java
+├── .gitignore
+├── kioskProject.iml          # IntelliJ 모듈 설정 파일
+└── README.md
+
 
 
 ---
@@ -46,18 +67,9 @@ src/ ├── lv1/ │ └── Lv1Main.java ├── lv2/ │ ├── Lv2M
 
 ---
 
-## 🔀 브랜치 전략
 
-| 브랜치 | 용도            |
-|--------|-----------------|
-| `main` | 배포 및 안정 버전 |
-| `dev`  | 개발 및 테스트 버전 |
 
----
+## 자세한 내용은! 블로그 Trouble Shooting 참고 부탁드립니당
 
-## 🧑‍💻 실행 방법
 
-1. 저장소 클론:
-   ```bash
-   git clone https://github.com/ROKSSAN/KioskProject.git
 
