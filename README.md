@@ -32,28 +32,8 @@
 
 ## 📁 폴더 구조
 
-kioskProject/
-├── .idea/                    # IntelliJ 프로젝트 설정
-├── out/                      # 빌드 출력 디렉토리
-├── src/
-│   ├── lv1/
-│   │   └── Lv1Main.java      # Lv1: 기본 출력 기능
-│   ├── lv2/
-│   │   ├── Lv2Main.java      # Lv2: MenuItem 클래스 도입
-│   │   └── MenuItem.java
-│   ├── lv3/
-│   │   ├── Lv3Main.java
-│   │   ├── Kiosk.java        # Lv3: 주문 기능 구현
-│   │   └── MenuItem.java
-│   └── lv45/
-│       ├── Lv4Main.java
-│       ├── Kiosk.java
-│       ├── Menu.java         # Lv4: 메뉴 클래스 분리 및 구조 개선
-│       └── MenuItem.java
-├── .gitignore
-├── kioskProject.iml          # IntelliJ 모듈 설정 파일
-└── README.md
-
+<img src="![image](https://github.com/user-attachments/assets/f0d5a214-1734-4390-86fe-1bf1c721bd65)
+">
 
 
 ---
@@ -63,8 +43,8 @@ kioskProject/
 - 메뉴 출력 및 사용자 선택 기능
 - `Menu`, `MenuItem`, `Kiosk` 등 클래스를 분리하여 OOP 설계
 - 사용자 입력 및 예외 처리
-- 구조 확장에 적합하도록 단계별로 구현 (Lv1 ~ Lv4)
-
+- 구조 확장에 적합하도록 단계별로 구현 (Lv1 ~ Lv5, Challenge Lv1 )
+- 가장 기본적인 키오스크 기능 + 장바구니 기능 (장바구니 삭제 구현중..)
 ---
 
 
