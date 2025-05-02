@@ -32,8 +32,7 @@
 
 ## 📁 폴더 구조
 
-<img src="![image](https://github.com/user-attachments/assets/f0d5a214-1734-4390-86fe-1bf1c721bd65)
-">
+<img src="![image](https://github.com/user-attachments/assets/f0d5a214-1734-4390-86fe-1bf1c721bd65)"/>
 
 
 ---
