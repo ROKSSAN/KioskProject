@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Cart {
     // 🟨 필드
-    private List<MenuItem> items;
+    private static List<MenuItem> items;
 
     // 🟦 생성자
     public Cart() {
@@ -15,7 +15,7 @@ public class Cart {
     // 🟩 메서드: 메뉴 항목 추가
     public void addItem(MenuItem item) {
         items.add(item);
-        System.out.println(item.getName() + " 이(가) 장바구니에 추가되었습니다.");
+        System.out.println(item.getName() + " 장바구니에 추가되었습니다.");
     }
 
     // 🟩 메서드: 장바구니 출력 및 총액 계산

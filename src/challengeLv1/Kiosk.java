@@ -14,10 +14,11 @@ public class Kiosk {
     // 메인 흐름 시작
     public void start() {
         Scanner scanner = new Scanner(System.in);
+        Cart cart = new Cart();
 
         while (true) {
             // 카테고리 보여주기
-            System.out.println("[ MAIN MENU ]");
+            System.out.println("\n[ MAIN MENU ]");
             for (int i = 0; i < menus.size(); i++) {
                 System.out.println((i + 1) + ". " + menus.get(i).getCategoryName());
             }
@@ -68,6 +69,9 @@ public class Kiosk {
             MenuItem chosenItem = items.get(itemChoice - 1);
             System.out.println("선택한 메뉴: " + chosenItem.getName());
             System.out.println();
+            cart.addItem(chosenItem);
+            Cart.showCart(); // 장바구니 보기
+            continue;
         }
 
         scanner.close();
