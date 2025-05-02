@@ -55,6 +55,6 @@
 
 ## 자세한 내용은! 블로그 Trouble Shooting 참고 부탁드립니당
 
-[![Velog]([https://img.shields.io/badge/Velog-rokssan-20C997?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@rokssan/posts](https://velog.io/@rokssan/Java-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-2-KioskProject))
+[![Velog](https://img.shields.io/badge/Velog-rokssan-20C997?style=for-the-badge&logo=velog&logoColor=white)]([https://velog.io/@rokssan/posts](https://velog.io/@rokssan/Java-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-2-KioskProject))
 
 
