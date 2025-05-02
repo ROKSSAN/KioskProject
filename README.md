@@ -34,6 +34,11 @@
 
 ![폴더 구조](https://github-production-user-asset-6210df.s3.amazonaws.com/139611910/439794169-f0d5a214-1734-4390-86fe-1bf1c721bd65.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250502%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250502T042518Z&X-Amz-Expires=300&X-Amz-Signature=6a912802fbee45e20b08c279dc78a2a1fa51ed6176d3f29c7d9904c3cdb13ade&X-Amz-SignedHeaders=host)
 
+---
+
+## 다이어그램 ( Diagram )
+
+![image](https://github.com/user-attachments/assets/0564ca75-3b53-42cf-8c5d-a25d7d2ba4d4)
 
 ---
 
